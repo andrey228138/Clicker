@@ -9,9 +9,10 @@
 .button{
     width: 100px;
     height: 100px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
     border-radius: 100%;
     cursor: pointer;
+    user-select: none;
 }
 .button:active{
     transform: scale(1.05);
