@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 100vh;
+}
+.button{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(58, 58, 58);
+    border-radius: 100%;
+    cursor: pointer;
+}
+.button:active{
+    transform: scale(1.05);
+}
+.count{
+    font-size: 24px;
+    user-select: none;
+}
